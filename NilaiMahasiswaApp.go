@@ -91,6 +91,7 @@ func binarySearch(NIM int) int {
 	return -1
 }
 
+// Untuk Menginput Data
 func inputData() {	
 	var pilihanInputData int
 	fmt.Println("\n === Menu Input Data ===")
@@ -169,6 +170,7 @@ func inputData() {
 	}
 }
 
+// Menampilkan Data
 func tampilkanData() {
 	var pilihanTampilkanData int
 	fmt.Println("\n === Menu Tampilkan Data ===")
@@ -247,6 +249,7 @@ func tampilkanData() {
 	} 
 }
 
+// Menghapus Data
 func hapusData() {
 	var pilihanHapusData int
 	fmt.Println("\n === Menu Hapus Data ===")
@@ -310,6 +313,7 @@ func hapusData() {
 	}
 }
 
+// Mengupdate Data
 func updateData() {
 	var pilihanUpdateData int
 	fmt.Println("\n === Menu Update Data ===")
@@ -498,6 +502,7 @@ func updateData() {
 	}
 }
 
+// Transkrip Nilai
 func transkipNilai() {
 	var NIM int
 	fmt.Print("Masukkan NIM mahasiswa: ")
@@ -540,6 +545,7 @@ func transkipNilai() {
     }
 }
 
+// Urutan Nilai
 func urutkanNilai() {
 	var namaMataKuliah string
 	fmt.Print("Masukkan nama mata kuliah yang ingin diurutkan: ")
